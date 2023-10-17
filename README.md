@@ -17,13 +17,13 @@ Installation & Setup:
 Clone the repository
 git clone https://github.com/Chahine-Ezzine/quiz-app.git
 
-Change to the directory
+Change to the directory: 
 cd quiz-app
 
-Install dependencies
+Install dependencies:
 npm install
 
-Run the application
+Run the application:
 npm run dev
 
 The application will open in your default browser on http://localhost:5173 or another available port.
