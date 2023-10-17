@@ -1,0 +1,42 @@
+.quoteSection {
+  backdrop-filter: blur(12.5px);
+  height: 64rem;
+}
+
+.quoteCard {
+  position: relative;
+  padding-top: 19.25rem;
+  padding-left: 16.88rem;
+}
+
+.quote-icon {
+  color: #00daf7;
+  font-family: 'Gayathri', sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  top: 47%;
+  left: 36%;
+}
+
+.quote-vector {
+  position: absolute;
+  right: 12%;
+  bottom: -10%;
+}
+
+.quoteSection blockquote,
+.quoteSection cite {
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 2.375rem;
+  padding-right: 5.81rem;
+}
+
+.quoteSection cite {
+  display: block;
+  line-height: normal;
+  font-weight: 500;
+  margin-top: 0.88rem;
+}

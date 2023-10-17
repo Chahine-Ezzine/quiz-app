@@ -1,0 +1,170 @@
+.loginSection {
+  padding-top: 12.12rem;
+}
+
+.loginSection h2 {
+  color: #000;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+}
+
+.loginSection p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: #8692a6;
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 1.94rem;
+  width: 75%;
+}
+
+.inputGroup:first-of-type {
+  margin-bottom: 20px;
+  margin-top: 1.8rem;
+}
+
+.inputGroup label {
+  font-style: normal;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.inputGroup input,
+.loginButton,
+.googleLoginButton {
+  border-radius: 1.875rem;
+  background: #fff;
+  box-shadow: 0px 15px 40px 5px #ededed;
+  width: 75%;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  padding-left: 2.2rem;
+  border: none;
+}
+.inputGroup:nth-of-type(2) input {
+  margin-bottom: 1.3rem;
+  position: relative;
+}
+
+.inputGroup:nth-of-type(2) {
+  position: relative;
+}
+
+.inputGroup:nth-of-type(3) input {
+  width: auto;
+  width: 17px;
+  vertical-align: top;
+  height: 17px;
+}
+
+.inputGroup:nth-of-type(3) label {
+  display: inline;
+  margin-top: 1.3rem;
+  margin-bottom: 2.3rem;
+  margin-left: 0.88rem;
+}
+
+.inputGroup input::placeholder,
+input {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.inputGroup input:hover {
+  border: 1px solid #bababa;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.inputGroup input:focus {
+  border: 1px solid #bababa;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.loginButton {
+  background: #8692a6;
+  text-align: center;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 0;
+  margin-top: 2.3rem;
+}
+
+.loginButton:hover {
+  background: #6c7b94;
+  transform: scale(1.05);
+}
+
+.loginButton:focus {
+  background: #6c7b94;
+  outline: none;
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #8692a6;
+}
+
+.googleLoginButton {
+  text-align: start;
+  color: #000;
+  font-family: Inter;
+  font-size: 1.1875rem;
+  font-weight: 500;
+}
+
+.googleLoginButton:hover {
+  transform: scale(1.05);
+}
+
+.googleLoginButton svg {
+  margin-right: 5rem;
+  vertical-align: middle;
+}
+
+.divider-flex {
+  display: flex;
+  width: 75%;
+  border-bottom: none;
+  align-items: center;
+  margin-top: 1.56rem;
+}
+
+.divider-flex p {
+  border-bottom: none;
+}
+
+.line-left,
+.line-right {
+  border-top: 1px solid #bababa;
+  width: 40% !important;
+}
+
+.divider-flex .text {
+  width: 20% !important;
+  color: #bababa;
+  text-align: center;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.toggleShow {
+  position: absolute;
+  bottom: 35%;
+  right: 31%;
+  color: #000;
+  text-align: right;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}

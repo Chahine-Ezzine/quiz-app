@@ -1,0 +1,10 @@
+.instructions-title {
+  font-size: 1.4375rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+
+.Quiz-Instructions-container .Instructions-content {
+  font-size: 1.1875rem;
+  margin-bottom: 2.5rem;
+}

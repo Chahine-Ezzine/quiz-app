@@ -1,0 +1,63 @@
+.dashboard-navbarFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard-searchWrapper {
+  position: relative;
+}
+
+.dashboard-search {
+  padding: 1.06rem 7.5rem 1.13rem 4.06rem;
+  border-radius: 1.875rem;
+  background: #fff;
+  box-shadow: 0px 15px 40px 5px #ededed;
+  color: #696f79;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  margin-right: 3rem;
+}
+
+.dashboard-searchIcon {
+  position: absolute;
+  left: 6%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  background: url('../../data/icons/navSearch-icon.png') no-repeat center center;
+  background-size: contain;
+}
+
+.dashboard-startQuizBtn {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 1.875rem;
+  background: #8692a6;
+  padding: 1rem 3.5rem;
+  border: none;
+}
+
+.dashboard-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dashboard-profileName {
+  color: #696f79;
+  font-family: Poppins;
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

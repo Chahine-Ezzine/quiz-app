@@ -1,0 +1,35 @@
+.modal-quiz-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.52);
+
+  z-index: 1000;
+}
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quiz-title {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.timer-red {
+  color: #de6944;
+}
+
+.timer {
+  font-weight: 400;
+}
+
+.timer span {
+  margin-left: 0.5rem;
+}

@@ -1,0 +1,32 @@
+.Quiz-Instructions-flex {
+  display: flex;
+  gap: 3rem;
+}
+
+.Quiz-Instructions-flex img {
+  width: 50%;
+  border-radius: 1.5rem;
+  box-shadow: 0px 15px 40px 5px #ededed;
+  height: 18.5rem;
+}
+
+.Quiz-Information-container {
+  width: 48%;
+}
+
+.Quiz-Info-container {
+  display: flex;
+  width: 65%;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.Quiz-Info-container h3 {
+  font-size: 1.4375rem;
+  font-weight: 600;
+}
+
+.Quiz-Info-container p {
+  font-size: 1.25rem;
+}

@@ -1,0 +1,47 @@
+.dashboard-flexContainer,
+.dashboard-content {
+  display: flex;
+}
+
+.dashboard-content {
+  flex-direction: column;
+}
+
+.dashboard-sidebar {
+  flex: 1;
+}
+
+.dashboard-content {
+  flex: 4;
+}
+
+.dashboard-flexContainer,
+.dashboard-main {
+  padding: 2rem;
+}
+
+.dashboard-main {
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+}
+
+.dashboard-flexContainer {
+  max-width: 100%;
+  gap: 1.6rem;
+}
+
+.dashboard-content {
+  gap: 2.25rem;
+}
+
+.dashboard {
+  background: #fbf9f9;
+  backdrop-filter: blur(30px);
+}
+
+.dashboard-main {
+  border-radius: 1.875rem;
+  background: #fff;
+  box-shadow: 0px 15px 40px 5px #ededed;
+  flex-grow: 1;
+}

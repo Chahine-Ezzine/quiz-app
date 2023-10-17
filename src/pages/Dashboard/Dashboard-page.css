@@ -1,0 +1,13 @@
+.userProfile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5.8rem;
+  flex: 1;
+}
+
+.userProfile-info {
+  display: flex;
+  gap: 2.25rem;
+  align-items: center;
+  margin-top: 2rem;
+}

@@ -1,0 +1,35 @@
+.Main-layout-container h1 {
+  font-size: 2.0625rem;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.5rem;
+}
+
+.Main-layout-container p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.action-button-container {
+  margin-top: 3.5rem;
+  text-align: end;
+}
+
+.action-button-container button {
+  font-size: 1.25rem;
+  color: #fff;
+  border-radius: 1.875rem;
+  background: #8692a6;
+  border: none;
+  padding: 1rem 5rem;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.action-button-container button:hover {
+  background-color: #6f7c8b;
+  transform: scale(1.05);
+}
+
+.action-button-container button:active {
+  background-color: #596075;
+}

@@ -1,0 +1,38 @@
+.achievements-featured-container,
+.featured-category-title,
+.featured-category-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.achievements-featured-container {
+  width: 100%;
+}
+
+.featured-category-title {
+  align-items: baseline;
+}
+
+.featured-category-title p {
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+.featured-category-title p:hover {
+  transform: scale(1.05);
+  font-weight: 500;
+  color: #575c65;
+}
+
+.featured-category-title h2 {
+  font-size: 1.5625rem;
+  font-weight: 700;
+}
+
+.featured-category-container {
+  gap: 1rem;
+}
+
+.featured-category-container {
+  flex-direction: column;
+  width: 48.5%;
+}
