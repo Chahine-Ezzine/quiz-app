@@ -36,8 +36,7 @@ function QuizQuestionAnswer() {
 
   const [showModal, setShowModal] = useState(false)
 
-  // Using the useTimer hook
-  const initialTime = 30 * 60 // 30 minutes in seconds
+  const initialTime = 30 * 60
   const { time, stopTimer, formatTime } = useTimer(initialTime)
 
   useEffect(() => {
@@ -93,7 +92,7 @@ function QuizQuestionAnswer() {
           <div className="title-container">
             <h1 className="quiz-title">{`${categoryName} Quiz`}</h1>
             <div className="timer">
-              Timer:
+              <span className="timer-label">Timer:</span>
               <span className={reviewMode ? 'timer-red' : ''}>
                 {formatTime(time)}
               </span>

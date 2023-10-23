@@ -28,3 +28,87 @@
 .userProfile-stats {
   gap: 1.75rem;
 }
+
+@media (max-width: 1390px) {
+  .userProfile-stats {
+    gap: 1.75rem;
+    position: absolute;
+    top: 126%;
+    left: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .userProfile-stats {
+    position: initial;
+  }
+
+  .stat-item {
+    position: absolute;
+  }
+
+  .stat-item:nth-child(1) {
+    top: 0px;
+    left: 60%;
+  }
+
+  .stat-item:nth-child(2) {
+    top: 90px;
+    left: 60%;
+  }
+
+  .stat-item:nth-child(3) {
+    top: 182px;
+    left: 60%;
+  }
+  .stat-value {
+    font-size: 1.6rem;
+  }
+
+  .userProfile-stats {
+    position: initial;
+  }
+  .userProfile-image {
+    width: 12.625rem;
+    height: 12.125rem;
+  }
+}
+@media (max-width: 700px) {
+  .userProfile-image {
+    width: 12.625rem;
+    height: 12.125rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .userProfile-name {
+    font-size: 1.5rem;
+  }
+
+  .userProfile-bonus {
+    font-size: 1.1875rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .stat-item {
+    position: initial;
+  }
+  .stat-item:nth-child(3) {
+    position: absolute;
+    top: 456px;
+    left: 0%;
+  }
+}
+
+@media (max-width: 456px) {
+  .stat-item {
+    position: initial;
+  }
+  .stat-item:nth-child(2) {
+    position: absolute;
+    top: 536px;
+    left: 0%;
+  }
+}

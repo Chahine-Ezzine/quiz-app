@@ -63,3 +63,37 @@
   padding-top: 1rem;
   font-size: 1rem;
 }
+
+@media (max-width: 1390px) {
+  .achievements-container {
+    width: auto;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 1390px) {
+  .achievements-container {
+    width: auto;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .badge-container,
+  .winner-container,
+  .lucky-container {
+    width: 5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .badge-container,
+  .winner-container,
+  .lucky-container {
+    width: 3rem;
+  }
+
+  .achievements-progressBar h2 {
+    font-size: 1.2625rem;
+  }
+}

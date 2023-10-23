@@ -11,8 +11,8 @@
   box-shadow: 0px 15px 40px 5px #ededed;
 }
 .stat-icon svg {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .smaller-icon svg {
@@ -29,4 +29,14 @@
   font-family: Poppins;
   font-size: 1rem;
   font-weight: 400;
+}
+
+@media (max-width: 750px) {
+  .stat-label {
+    font-size: 0.75rem;
+  }
+
+  .stat-value {
+    font-size: 1.5rem;
+  }
 }

@@ -4,10 +4,10 @@
 }
 
 .Quiz-Instructions-flex img {
-  width: 50%;
+  width: 45%;
   border-radius: 1.5rem;
   box-shadow: 0px 15px 40px 5px #ededed;
-  height: 18.5rem;
+  height: 17rem;
 }
 
 .Quiz-Information-container {
@@ -29,4 +29,44 @@
 
 .Quiz-Info-container p {
   font-size: 1.25rem;
+}
+
+@media (max-width: 1240px) {
+  .Quiz-Info-container {
+    display: flex;
+    width: 100%;
+  }
+  .Quiz-Instructions-flex img {
+    width: 20rem;
+    height: 16rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .Quiz-Instructions-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Quiz-Instructions-flex img {
+    width: 25rem;
+    height: 18rem;
+  }
+
+  .Quiz-Information-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 530px) {
+  .Quiz-Instructions-flex img {
+    height: 13rem;
+  }
+  .Quiz-Info-container p {
+    font-size: 1.15rem;
+  }
+  .Quiz-Info-container h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
 }

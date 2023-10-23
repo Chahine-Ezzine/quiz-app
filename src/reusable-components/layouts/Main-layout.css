@@ -5,6 +5,10 @@
   margin-bottom: 0.5rem;
 }
 
+.Main-layout-container {
+  position: relative;
+}
+
 .Main-layout-container p {
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
@@ -32,4 +36,24 @@
 
 .action-button-container button:active {
   background-color: #596075;
+}
+
+@media (max-width: 1155px) {
+  .action-button-container {
+    text-align: start;
+  }
+}
+
+@media (max-width: 530px) {
+  .Main-layout-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .Main-layout-container p {
+    font-size: 1.1rem;
+  }
+
+  .action-button-container button {
+    font-size: 1rem;
+  }
 }

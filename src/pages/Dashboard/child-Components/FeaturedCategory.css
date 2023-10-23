@@ -1,12 +1,7 @@
-.achievements-featured-container,
 .featured-category-title,
 .featured-category-container {
   display: flex;
   justify-content: space-between;
-}
-
-.achievements-featured-container {
-  width: 100%;
 }
 
 .featured-category-title {
@@ -35,4 +30,20 @@
 .featured-category-container {
   flex-direction: column;
   width: 48.5%;
+}
+
+@media (max-width: 1390px) {
+  .featured-category-container {
+    gap: 1.5rem;
+    width: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .featured-category-title h2 {
+    font-size: 1.2625rem;
+  }
+  .featured-category-title p {
+    font-size: 0.8rem;
+  }
 }

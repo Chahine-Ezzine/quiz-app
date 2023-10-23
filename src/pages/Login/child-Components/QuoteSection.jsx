@@ -13,9 +13,10 @@ const QuoteSection = () => {
           indefinite future.
         </blockquote>
         <cite>Brian Tracy</cite>
-        <QuoteSvg />
+        <QuoteSvg className="quote-vector" />
       </div>
     </div>
   )
 }
+
 export default QuoteSection

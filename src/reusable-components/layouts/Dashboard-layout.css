@@ -9,6 +9,7 @@
 
 .dashboard-sidebar {
   flex: 1;
+  position: relative;
 }
 
 .dashboard-content {
@@ -20,13 +21,7 @@
   padding: 2rem;
 }
 
-.dashboard-main {
-  padding-bottom: 2rem;
-  padding-top: 1.5rem;
-}
-
 .dashboard-flexContainer {
-  max-width: 100%;
   gap: 1.6rem;
 }
 
@@ -44,4 +39,25 @@
   background: #fff;
   box-shadow: 0px 15px 40px 5px #ededed;
   flex-grow: 1;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+}
+@media (max-width: 1030px) {
+  .dashboard-main {
+    margin-left: -4rem;
+  }
+}
+
+@media (max-width: 1030px) {
+  .dashboard-flexContainer {
+    max-width: 100%;
+    gap: normal;
+  }
+}
+
+@media (max-width: 500px) {
+  .dashboard-flexContainer,
+  .dashboard-main {
+    padding: 1rem;
+  }
 }

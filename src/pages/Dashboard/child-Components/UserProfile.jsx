@@ -1,10 +1,10 @@
 import './UserProfile.css'
 import StatItem from '../../../reusable-components/stat-Item/Stat-Item'
 import UserProfileImg from '../../../data/images/user-image.png'
-import { AiFillFlag } from 'react-icons/ai'
-import { MdAccessTimeFilled } from 'react-icons/md'
-import { BsFillCheckCircleFill } from 'react-icons/bs'
+import CheckCircle from './CheckCircle'
 import ProgressBar from '../../../reusable-components/ProgressBar/ProgressBar'
+import TimeIcon from './TimeIcon'
+import FlagIcon from './FlagIcon'
 
 function UserProfile() {
   return (
@@ -21,17 +21,16 @@ function UserProfile() {
           <ProgressBar progress={90} />
         </div>
         <div className="userProfile-stats">
-          <StatItem IconComponent={AiFillFlag} value="27" label="Quiz Passed" />
+          <StatItem IconComponent={FlagIcon} value="27" label="Quiz Passed" />
           <StatItem
-            IconComponent={MdAccessTimeFilled}
+            IconComponent={TimeIcon}
             value="27min"
             label="Fastest Time"
           />
           <StatItem
-            IconComponent={BsFillCheckCircleFill}
+            IconComponent={CheckCircle}
             value="200"
-            label="Correct Answers"
-            iconClass="smaller-icon"
+            label="Correct Answer"
           />
         </div>
       </div>

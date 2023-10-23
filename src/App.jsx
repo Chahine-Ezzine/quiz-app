@@ -12,12 +12,9 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/select-topics" element={<SelectTopicsPage />} />
-
         <Route path="/quiz-instructions" element={<QuizInstructions />} />
         <Route path="/quiz-question-answer" element={<QuizQuestionAnswer />} />
         <Route path="*" element={<LoginPage />} />
-
-        {/* ... other routes */}
       </Routes>
     </Router>
   )

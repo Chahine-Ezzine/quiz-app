@@ -1,12 +1,15 @@
 .quoteSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64rem; /* This will take the full viewport height, you can adjust as needed */
   backdrop-filter: blur(12.5px);
-  height: 64rem;
 }
 
 .quoteCard {
   position: relative;
-  padding-top: 19.25rem;
-  padding-left: 16.88rem;
+  max-width: 70%;
+  padding-left: 8rem;
 }
 
 .quote-icon {
@@ -15,15 +18,15 @@
   font-size: 6rem;
   font-weight: 700;
   line-height: normal;
-  position: absolute;
-  top: 47%;
-  left: 36%;
+  display: block;
+  margin-bottom: -5rem;
+  margin-left: -1rem;
 }
 
 .quote-vector {
   position: absolute;
-  right: 12%;
-  bottom: -10%;
+  right: -5%;
+  transform: scale(0.8); /* Adjust as needed */
 }
 
 .quoteSection blockquote,
@@ -31,7 +34,6 @@
   color: #fff;
   font-size: 1.125rem;
   line-height: 2.375rem;
-  padding-right: 5.81rem;
 }
 
 .quoteSection cite {
@@ -39,4 +41,22 @@
   line-height: normal;
   font-weight: 500;
   margin-top: 0.88rem;
+}
+
+@media (max-width: 1125px) {
+  .quoteCard {
+    padding-left: 3rem;
+  }
+
+  .quoteCard {
+    padding-left: 0rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .quoteSection {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: auto;
+  }
 }

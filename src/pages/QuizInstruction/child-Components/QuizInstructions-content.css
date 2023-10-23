@@ -8,3 +8,15 @@
   font-size: 1.1875rem;
   margin-bottom: 2.5rem;
 }
+
+@media (max-width: 680px) {
+  .content .Instructions-content {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .content .Instructions-content {
+    font-size: 0.85rem;
+  }
+}
